@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "scorecard-python-demo"
+version = "0.1.0"
+description = ""
+authors = ["Jesse Hu <huyouare@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11.0, <3.12.0"
+boto3 = ">=1.27.59,<1.35.0"  # Version relaxed for canopy-sdk
+tqdm = "^4.66.1"
+canopy-sdk = "^0.5.0"
+scipy = "^1.11.4"
+spacy = "^3.7.2"
+spacy-transformers = "^1.3.4"
+nltk = "^3.8.1"
+unstructured = {extras = ["pdf"], version = "^0.11.8"}
+scorecard-ai = "0.1.8"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
