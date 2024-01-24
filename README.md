@@ -1,4 +1,4 @@
-# scorecard-python-demo
+# Scorecard Python-demo
 
 ## Overview
 
